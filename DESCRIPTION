@@ -1,0 +1,27 @@
+Package: RTCGA.methylation.20160128
+Type: Package
+Title: Methylation datasets from The Cancer Genome Atlas Project from 2016-01-28
+Version: 0.99.0
+Date: 2016-12-02
+Author: Marcin Kosinski <m.p.kosinski@gmail.com>
+Maintainer: Marcin Kosinski <m.p.kosinski@gmail.com>
+Description: Package provides methylation (humanmethylation27) datasets from The Cancer Genome Atlas
+    Project for all cohorts types from http://gdac.broadinstitute.org/. Methylation
+    data format is explained on NCI TCGA wiki https://wiki.nci.nih.gov/display/TCGA/DNA+methylation
+    Data taken from 2016-01-28 release. All release dates are
+    available here http://gdac.broadinstitute.org/runs/ .
+License: GPL-2
+LazyData: TRUE
+Repository: Bioconductor
+BugReports: https://github.com/RTCGA/RTCGA/issues
+Depends: R (>= 3.3.0), RTCGA, ExperimentHub
+Imports: AnnotationHub
+Suggests: knitr
+Enhances: RTCGA.methylation
+biocViews: Annotation Data
+VignetteBuilder: knitr
+NeedsCompilation: no
+RoxygenNote: 5.0.1
+TCGAdataSet: Merge_methylation__humanmethylation27
+TCGAreleaseDate: 2016-01-28
+TCGAdataType: methylation
